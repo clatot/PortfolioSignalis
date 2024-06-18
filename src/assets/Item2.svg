@@ -1,0 +1,21 @@
+<svg width="300" height="71" viewBox="0 0 300 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line y1="0.5" x2="202" y2="0.5" stroke="white"/>
+<line x1="201" y1="1" x2="201" y2="70" stroke="white" stroke-width="2"/>
+<line y1="70.5" x2="202" y2="70.5" stroke="white"/>
+<line x1="0.5" y1="70" x2="0.5" y2="1" stroke="white"/>
+<line x1="297" y1="21" x2="299" y2="21" stroke="white" stroke-width="2"/>
+<line x1="295" y1="19" x2="297" y2="19" stroke="white" stroke-width="2"/>
+<path d="M293 17H295" stroke="white" stroke-width="2"/>
+<path d="M289 13H291" stroke="white" stroke-width="2"/>
+<path d="M285 9H287" stroke="white" stroke-width="2"/>
+<path d="M291 15H293" stroke="white" stroke-width="2"/>
+<path d="M283 7H285" stroke="white" stroke-width="2"/>
+<path d="M281 5H283" stroke="white" stroke-width="2"/>
+<path d="M279 3H281" stroke="white" stroke-width="2"/>
+<path d="M277 1H279" stroke="white" stroke-width="2"/>
+<path d="M287 10H289V12H287V10Z" fill="white"/>
+<line x1="207" x2="207" y2="70" stroke="white" stroke-width="2"/>
+<line x1="299" y1="22" x2="299" y2="70" stroke="white" stroke-width="2"/>
+<line x1="206" y1="70.5" x2="300" y2="70.5" stroke="white"/>
+<line x1="206" y1="0.5" x2="277" y2="0.5" stroke="white"/>
+</svg>
