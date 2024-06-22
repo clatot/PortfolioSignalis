@@ -10,11 +10,7 @@ function NavIcon({ category, isSelected, onClick }) {
         {category}
       </p>
       <img
-        src={
-          isSelected
-            ? "public/images/NavIconSelect.svg"
-            : "public/images/NavIcon.svg"
-        }
+        src={isSelected ? "./images/NavIconSelect.svg" : "./images/NavIcon.svg"}
         alt=""
         className=" claw-full h-full"
       />

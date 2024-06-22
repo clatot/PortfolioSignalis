@@ -13,7 +13,7 @@ function Background() {
 
       <div className="absolute inset-0 z-30 opacity-50">
         <img
-          src="public/images/FilterSignalis 1.svg"
+          src="./images/FilterSignalis 1.svg"
           alt=""
           className="w-full h-max"
         />
@@ -21,7 +21,7 @@ function Background() {
 
       <div className="absolute inset-0 z-10">
         <img
-          src="public/images/ElsterBackgroundZoom.png"
+          src="./images/ElsterBackgroundZoom.png"
           alt=""
           className={`w-full h-full object-cover scale-150 animate-moveMargin`}
         />
