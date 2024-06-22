@@ -50,7 +50,7 @@ function Item({ title, content, preview, delay }) {
           isBlinking ? "animate-clignotement" : ""
         }`}
       >
-        <img src="./src/assets/Item2.svg" alt="" className="h-full w-auto" />
+        <img src="./images/Item2.svg" alt="" className="h-full w-auto" />
         <div className="absolute left-0 w-4/6 h-full">
           <p className="relative left-2 top-0">ERROR</p>
         </div>

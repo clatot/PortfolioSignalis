@@ -21,7 +21,7 @@ function Background() {
 
       <div className="absolute inset-0 z-10">
         <img
-          src="./images/ElsterBackgroundZoom.png"
+          src="./images/ElsterBackgroundZoom.svg"
           alt=""
           className={`w-full h-full object-cover scale-150 animate-moveMargin`}
         />
