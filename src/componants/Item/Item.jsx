@@ -30,7 +30,7 @@ function Item({ title, content, preview, delay }) {
           isBlinking ? "animate-clignotement" : ""
         }`}
       >
-        <img src="./src/assets/Item2.svg" alt="" className="h-full w-auto" />
+        <img src="public/images/Item2.svg" alt="" className="h-full w-auto" />
         <div className="absolute left-2 w-4/6 h-full flex flex-col justify-end">
           <p className="relative top-0">{preview}</p>
           <p className="relative top-0">{preview}</p>
@@ -51,7 +51,7 @@ function Item({ title, content, preview, delay }) {
           isBlinking ? "animate-clignotement" : ""
         }`}
       >
-        <img src="./src/assets/Item2.svg" alt="" className="h-full w-auto" />
+        <img src="public/images/Item2.svg" alt="" className="h-full w-auto" />
         <div className="absolute left-0 w-4/6 h-full">
           <p className="relative left-2 top-0">ERROR</p>
         </div>
