@@ -3,12 +3,38 @@ import Item from "../Item/Item";
 
 const itemsData = {
   HOME: [
-    { title: "Home 1", description: "Blablabla", color: "" },
-    { title: "Home 2", description: "Blablabla", color: "" },
-    { title: "Home 3", description: "Blablabla", color: "" },
-    { title: "Home 4", description: "Blablabla", color: "" },
-    { title: "Home 6", description: "Blablabla", color: "" },
-    { title: "Home 5", description: "Blablabla", color: "" },
+    {
+      title: "Home 1",
+      preview: ":3",
+      description: "Home 1 Blablabla",
+      color: "",
+      delay: 1500,
+    },
+    {
+      title: "Home 2",
+      description: "Home 2 Blablabla",
+      color: "",
+      delay: 0,
+    },
+    {
+      title: "Home 3",
+      description: "Home 3 Blablabla",
+      color: "",
+      delay: 3500,
+    },
+    { title: "Home 4", description: "", color: "", delay: 3000 },
+    {
+      title: "Home 5",
+      description: "Home 5 Blablabla",
+      color: "",
+      delay: 1500,
+    },
+    {
+      title: "Home 6",
+      description: "Home 6 Blablabla",
+      color: "",
+      delay: 2500,
+    },
   ],
   ABOUT: [
     { title: "About 3", description: "Blablabla", color: "" },
@@ -64,7 +90,8 @@ function Items() {
           key={index}
           title={item.title}
           content={item.description}
-          class={item.color}
+          preview={item.preview}
+          delay={item.delay}
         />
       ))}
     </div>

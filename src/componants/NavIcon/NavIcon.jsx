@@ -6,7 +6,7 @@ function NavIcon({ category, isSelected, onClick }) {
         isSelected ? "text-black" : ""
       }`}
     >
-      <p className="absolute flex justify-center p-1 w-full font-bold">
+      <p className="absolute flex justify-center w-full text-2xl font-bold tracking-widest">
         {category}
       </p>
       <img
