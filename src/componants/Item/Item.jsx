@@ -39,7 +39,7 @@ function Item({ title, content, preview, delay }) {
           className="absolute right-0 h-full w-2/6 pl-4 cursor-pointer"
           onClick={handleClick}
         >
-          <p className="">Text</p>
+          <p className="text-2xl">Text</p>
         </div>
       </div>
     );
@@ -52,9 +52,9 @@ function Item({ title, content, preview, delay }) {
       >
         <img src="./images/Item2.svg" alt="" className="h-full w-auto" />
         <div className="absolute left-0 w-4/6 h-full">
-          <p className="relative left-2 top-0">ERROR</p>
+          <p className="relative left-2 top-0 text-5xl">ERROR 404</p>
         </div>
-        <div className="absolute right-0 h-full w-2/6 pl-4">
+        <div className="absolute right-0 h-full w-2/6 pl-4 text-2xl">
           <p className="">ERROR</p>
         </div>
       </div>

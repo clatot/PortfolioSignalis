@@ -36,7 +36,7 @@ export default {
       },
       animation: {
         moveMargin: "moveMargin 5s linear forwards",
-        clignotement: "blink 2s ease-in-out forwards",
+        clignotement: "blink 3s ease-in-out forwards",
       },
     },
   },

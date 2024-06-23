@@ -5,7 +5,7 @@ const itemsData = {
   HOME: [
     {
       title: "Home 1",
-      preview: ":3",
+      preview: "",
       description: "Home 1 Blablabla",
       color: "",
       delay: 1500,
