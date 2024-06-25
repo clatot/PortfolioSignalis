@@ -32,7 +32,6 @@ function Item({ title, content, preview, delay }) {
         <img src="./images/Item2.svg" alt="" className="h-full w-auto" />
         <div className="absolute left-2 w-4/6 h-full flex flex-col justify-end">
           <p className="relative top-0">{preview}</p>
-          <p className="relative top-0">{preview}</p>
           <p className="relative top-0 text-3xl font-bold">{title}</p>
         </div>
         <div

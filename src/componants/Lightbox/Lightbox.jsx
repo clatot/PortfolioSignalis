@@ -20,7 +20,7 @@ function Lightbox() {
         "absolute inset-0 z-50 flex items-center justify-center bg-black"
       }
     >
-      <div className="flex">
+      <div className="flex flex-col text-3xl">
         <p>{focusedItem}</p>
         <button onClick={handleClose}>X</button>
       </div>

@@ -1,8 +1,9 @@
 import NavIcon from "../NavIcon/NavIcon";
-import { useNavigation } from "../../contexts/NavigationContext";
+import { useAtom } from "jotai";
+import { categorySelection } from "../../atoms";
 
 function Navigation() {
-  const { selectedCategory, setSelectedCategory } = useNavigation();
+  const [selectedCategory, setSelectedCategory] = useAtom(categorySelection);
 
   const handleCategoryClick = (category) => {
     setSelectedCategory(category);
