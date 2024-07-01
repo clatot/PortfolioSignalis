@@ -6,7 +6,7 @@ import Lightbox from "./componants/Lightbox/Lightbox";
 
 function App() {
   return (
-    <div className="overflow-hidden bg-black text-white pokemon-font w-screen h-screen flex flex-col justify-center relative">
+    <div className="overflow-hidden bg-black text-white pokemon-font tracking-widest w-screen h-screen flex flex-col justify-center relative">
       {/* Background */}
       <div className="absolute inset-0">
         <Background />

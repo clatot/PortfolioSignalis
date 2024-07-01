@@ -7,8 +7,8 @@ import ThemeController from "../ThemeController/ThemeController";
 function Header() {
   return (
     <header className="col-span-1 flex flex-col items-center bg-red h-full z-10 w-1/6">
-      <h1>Portfolio</h1>
-      <p>Web Developper</p>
+      <h1 className="text-3xl mt-4">Raphael Clatot</h1>
+      <p className="text-xl mb-8">Web Developper</p>
       <div className="flex">
         <Navigation />
       </div>

@@ -18,9 +18,9 @@ function Navigation() {
           onClick={() => handleCategoryClick("HOME")}
         />
         <NavIcon
-          category="ABOUT"
-          isSelected={selectedCategory === "ABOUT"}
-          onClick={() => handleCategoryClick("ABOUT")}
+          category="EXPERIENCE"
+          isSelected={selectedCategory === "EXPERIENCE"}
+          onClick={() => handleCategoryClick("EXPERIENCE")}
         />
         <NavIcon
           category="SKILLS"
