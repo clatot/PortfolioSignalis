@@ -6,17 +6,20 @@ import ThemeController from "../ThemeController/ThemeController";
 
 function Header() {
   return (
-    <header className="col-span-1 flex flex-col items-center bg-red h-full z-10 w-1/6">
-      <h1 className="text-3xl mt-4">Raphael Clatot</h1>
-      <p className="text-xl mb-8">Web Developper</p>
+    <header className="col-span-1 flex flex-col items-center bg-red h-full z-40 w-1/4 sm:w-full">
+      <h1 className="text-3xl mt-4 w-full sm:w-2/3">
+        <img
+          src="./images/ClatotSignalis.svg"
+          alt="Clatot"
+          className="w-[1000px] sm:w-full"
+        />
+      </h1>
+      <p className="text-2xl mb-8 sm:mb-4 text-center">Web Developper</p>
+      <Navigation />
       <div className="flex">
-        <Navigation />
-      </div>
-      <div className="flex bg-slate-500">
-        <ThemeController />
         <SoundController />
       </div>
-      <div className="flex bg-slate-500">
+      <div className="flex">
         <LanguageController />
         <CV />
       </div>

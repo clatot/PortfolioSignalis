@@ -2,7 +2,7 @@ function NavIcon({ category, isSelected, onClick }) {
   return (
     <li
       onClick={onClick}
-      className={`relative flex-grow overflow-hidden h-8  ${
+      className={`relative flex-grow overflow-hidden h-8 sm:grow-0 ${
         isSelected ? "text-black" : ""
       }`}
     >

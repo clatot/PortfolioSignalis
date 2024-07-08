@@ -16,9 +16,11 @@ function Items() {
           title={item.title}
           preview={item.preview}
           code={item.code}
+          logo={item.logo}
           content={item.content}
           delay={item.delay}
           error={item.error}
+          link={item.link}
         />
       ))}
     </div>

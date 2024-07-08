@@ -10,8 +10,8 @@ function Navigation() {
   };
 
   return (
-    <nav className="">
-      <ul className="flex flex-col gap-2">
+    <nav>
+      <ul className="flex flex-col gap-2 sm:flex-row flex-wrap sm:justify-center">
         <NavIcon
           category="HOME"
           isSelected={selectedCategory === "HOME"}

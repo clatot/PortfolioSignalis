@@ -2,12 +2,15 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
     extend: {
       keyframes: {
         moveMargin: {
           "0%": { marginTop: "-300px" },
           "100%": { marginTop: "300px" },
+        },
+        moveMarginResponsive: {
+          "0%": { marginTop: "-120px" },
+          "100%": { marginTop: "200px" },
         },
         blink: {
           "0%": { opacity: "0" },
@@ -36,8 +39,22 @@ export default {
       },
       animation: {
         moveMargin: "moveMargin 5s linear forwards",
+        moveMarginResponsive: "moveMarginResponsive 3s linear forwards",
         clignotement: "blink 3s ease-in-out forwards",
       },
+    },
+    screens: {
+      xl: { max: "1279px" },
+      // => @media (max-width: 1279px) { ... }
+
+      lg: { max: "1023px" },
+      // => @media (max-width: 1023px) { ... }
+
+      md: { max: "767px" },
+      // => @media (max-width: 767px) { ... }
+
+      sm: { max: "639px" },
+      // => @media (max-width: 639px) { ... }
     },
   },
   plugins: [],

@@ -6,12 +6,17 @@ function Lightbox() {
   const [active, setActive] = useAtom(lightboxActive);
   const focusedItem = useAtomValue(focusItem);
 
+  console.log(focusedItem);
   if (!active) {
     return null;
   }
 
   function handleClose() {
     setActive("");
+  }
+
+  function handleClick() {
+    window.open(focusedItem[6], "_blank");
   }
 
   return (
@@ -23,35 +28,30 @@ function Lightbox() {
         X
       </button>
       <div className="flex flex-col ml-16 mt-48 text-3xl h-3/5">
-        <div>
-          <img src="" alt="" />
-          <h2 className="text-6xl">Title</h2>
+        <div className="flex items-baseline gap-6">
+          <img src="./images/ClatotSignalis.svg" alt="" className="h-8" />
+          <h2 className="text-6xl">{focusedItem[0]}</h2>
         </div>
-        <div className="my-8">
-          <p>{focusedItem[0]}</p>
+        <div className="my-8 mr-96">
           <p>{focusedItem[1]}</p>
           <p>{focusedItem[2]}</p>
         </div>
         <div className="leading-none">
           <p className="flex ">
-            <span className="w-48">Front-end</span>
-            <span className="w-4">:</span>
             <span>{focusedItem[3]}</span>
           </p>
           <p className="flex">
-            <span className="w-48">Style</span>
-            <span className="w-4">:</span>
             <span>{focusedItem[4]}</span>
           </p>
           <p className="flex">
-            <span className="w-48">Back-end</span>
-            <span className="w-4">:</span>
             <span>{focusedItem[5]}</span>
           </p>
         </div>
-        <div className="mt-16">
-          <p>Voir le projet</p>
-        </div>
+        {focusedItem[6] && (
+          <div className="mt-16 underline">
+            <p onClick={handleClick}>{focusedItem[7]}</p>
+          </div>
+        )}
       </div>
     </div>
   );
