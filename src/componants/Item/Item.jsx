@@ -10,11 +10,9 @@ function Item({ title, preview, code, logo, content, delay, error, link }) {
   function handleClick() {
     if (link) {
       window.open(link, "_blank");
-      console.log("click");
     } else if (content) {
       setActive(true);
       setFocusedItem(content);
-      console.log("clack");
     }
   }
 
@@ -47,13 +45,17 @@ function Item({ title, preview, code, logo, content, delay, error, link }) {
         </p>
       </div>
       <div
-        className={`absolute right-0 h-full w-2/6 pl-4 sm:pl-2 ${
+        className={`absolute right-0 h-full w-2/6 pl-4 sm:pl-2 hover:-right-2 ${
           !error ? "cursor-pointer" : ""
         }`}
         onClick={!error ? handleClick : null}
       >
         <div className="flex absolute gap-12 right-4 bottom-4 sm:left-4 sm:gap-8">
-          <img src={logo} alt="" className="w-[30px] sm:w-[20px]" />
+          <img
+            src={logo}
+            alt=""
+            className="w-[30px] h-[30px] sm:w-[20px] sm:h-[20px]"
+          />
           <img
             src={error ? "./images/ArrowRed.svg" : "./images/ArrowBlue.svg"}
             alt=""

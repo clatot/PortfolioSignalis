@@ -16,7 +16,7 @@ function App() {
       <Lightbox />
 
       {/* Main Page */}
-      <div className="flex justify-between sm:flex-col-reverse h-3/4 px-8 sm:px-0 sm:items-center">
+      <div className="h-full flex justify-between sm:flex-col-reverse h-3/4 px-8 sm:px-0 sm:items-center sm:overflow-y-auto sm:pb-16">
         <Items />
         <Header />
       </div>

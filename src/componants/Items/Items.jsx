@@ -9,7 +9,7 @@ function Items() {
   const selectedData = itemsData[selectedCategory];
 
   return (
-    <div className="col-span-1 flex flex-col justify-center z-10 h-full gap-2">
+    <div className="col-span-1 flex flex-col justify-center z-10 h-full gap-2 ">
       {selectedData.map((item) => (
         <Item
           key={item.id}

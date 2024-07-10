@@ -6,7 +6,6 @@ function Lightbox() {
   const [active, setActive] = useAtom(lightboxActive);
   const focusedItem = useAtomValue(focusItem);
 
-  console.log(focusedItem);
   if (!active) {
     return null;
   }
@@ -23,16 +22,20 @@ function Lightbox() {
     <div className={"absolute inset-0 z-50 flex bg-black"}>
       <button
         onClick={handleClose}
-        className="absolute top-16 left-16 text-4xl"
+        className="absolute top-16 left-16 text-4xl hover:text-5xl"
       >
         X
       </button>
-      <div className="flex flex-col ml-16 mt-48 text-3xl h-3/5">
-        <div className="flex items-baseline gap-6">
-          <img src="./images/ClatotSignalis.svg" alt="" className="h-8" />
-          <h2 className="text-6xl">{focusedItem[0]}</h2>
+      <div className="flex flex-col ml-16 mt-48 text-3xl h-3/5 sm:mt-32 sm:text-xl sm:ml-4">
+        <div className="flex items-baseline gap-6 sm:flex-col">
+          <img
+            src="./images/ClatotSignalis.svg"
+            alt=""
+            className="h-8 sm:h-6"
+          />
+          <h2 className="text-6xl sm:text-4xl">{focusedItem[0]}</h2>
         </div>
-        <div className="my-8 mr-96">
+        <div className="my-8 mr-32 sm:mr-8">
           <p>{focusedItem[1]}</p>
           <p>{focusedItem[2]}</p>
         </div>

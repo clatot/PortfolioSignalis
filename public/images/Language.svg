@@ -1,13 +1,13 @@
 <svg width="84" height="21" viewBox="0 0 84 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 3H15V21H0V3Z" fill="#B8B8B8"/>
-<rect x="3" width="12" height="16" fill="#B8B8B8"/>
-<rect x="3" y="6" width="12" height="15" fill="#D9D9D9"/>
-<rect x="9" y="3" width="6" height="15" fill="#D9D9D9"/>
-<rect x="21" width="54" height="3" fill="#D9D9D9"/>
-<path d="M21 0H24V21H21V0Z" fill="#D9D9D9"/>
-<rect x="23" y="18" width="61" height="3" fill="#D9D9D9"/>
-<path d="M69 3H81V21H69V3Z" fill="#D9D9D9"/>
-<rect x="77" y="6" width="4" height="12" fill="#D9D9D9"/>
-<rect x="75" y="6" width="9" height="15" fill="#D9D9D9"/>
-<rect x="69" width="6" height="21" fill="#D9D9D9"/>
+<path d="M0 3H15V21H0V3Z" fill="#DDDDDD"/>
+<rect x="3" width="12" height="16" fill="#DDDDDD"/>
+<rect x="3" y="6" width="12" height="15" fill="white"/>
+<rect x="9" y="3" width="6" height="15" fill="white"/>
+<rect x="21" width="54" height="3" fill="white"/>
+<path d="M21 0H24V21H21V0Z" fill="white"/>
+<rect x="23" y="18" width="61" height="3" fill="white"/>
+<path d="M69 3H81V21H69V3Z" fill="white"/>
+<rect x="77" y="6" width="4" height="12" fill="white"/>
+<rect x="75" y="6" width="9" height="15" fill="white"/>
+<rect x="69" width="9" height="21" fill="white"/>
 </svg>
