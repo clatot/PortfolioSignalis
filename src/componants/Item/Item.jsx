@@ -32,11 +32,11 @@ function Item({ title, preview, code, logo, content, delay, error, link }) {
     >
       <img src="./images/Item2.svg" alt="" className="h-full w-auto" />
       <div
-        className={`absolute left-2 w-4/6 h-full flex flex-col justify-end ${
+        className={`absolute left-2 sm:bottom-3 w-4/6 h-full flex flex-col justify-end ${
           error ? "text-red-900" : ""
         }`}
       >
-        <p className="absolute top-0 right-0 mr-4 mt-1 text-2xl sm:text-base">
+        <p className="absolute top-6 right-0 mr-4 mt-1 text-2xl sm:text-base">
           {code}
         </p>
         <p className="relative top-0 text-xl sm:text-base">{preview}</p>
@@ -50,7 +50,7 @@ function Item({ title, preview, code, logo, content, delay, error, link }) {
         }`}
         onClick={!error ? handleClick : null}
       >
-        <div className="flex absolute gap-12 right-4 bottom-4 sm:left-4 sm:gap-8">
+        <div className="flex absolute gap-12 right-4 bottom-4 sm:bottom-6 sm:left-4 sm:gap-8">
           <img
             src={logo}
             alt=""

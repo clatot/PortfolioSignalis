@@ -1,5 +1,4 @@
 import { useAtom, useAtomValue } from "jotai";
-import { useState } from "react";
 import { focusItem, lightboxActive } from "../../atoms";
 
 function Lightbox() {
@@ -11,7 +10,7 @@ function Lightbox() {
   }
 
   function handleClose() {
-    setActive("");
+    setActive(false);
   }
 
   function handleClick() {

@@ -1,5 +1,4 @@
 import Background from "./componants/Background/Background";
-import Follower from "./componants/Follower/Follower";
 import Header from "./componants/Header/Header";
 import Items from "./componants/Items/Items";
 import Lightbox from "./componants/Lightbox/Lightbox";

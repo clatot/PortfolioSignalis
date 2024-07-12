@@ -1,7 +1,4 @@
-import CV from "../CV/CV";
-import LanguageController from "../LanguageController/LanguageController";
 import Navigation from "../Navigation/Navigation";
-import SoundController from "../SoundController/SoundController";
 
 function Header() {
   function handleClickGit() {
@@ -24,22 +21,19 @@ function Header() {
       <p className="text-2xl mb-8 sm:mb-4 text-center">Web Developper</p>
       <Navigation />
       <div className="flex items-end gap-4 my-4">
-        <LanguageController />
-        <div className="flex gap-4 ">
-          <div onClick={handleClickCV}>
-            <img
-              src="./icons/file-regular.svg"
-              alt=""
-              className="w-[38px] hover:w-[40px] cursor-pointer"
-            />
-          </div>
-          <div onClick={handleClickGit}>
-            <img
-              src="./icons/github.svg"
-              alt=""
-              className="w-[48px] hover:w-[50px] cursor-pointer"
-            />
-          </div>
+        <div onClick={handleClickCV}>
+          <img
+            src="./icons/file-regular.svg"
+            alt=""
+            className="w-[38px] hover:w-[40px] cursor-pointer"
+          />
+        </div>
+        <div onClick={handleClickGit}>
+          <img
+            src="./icons/github.svg"
+            alt=""
+            className="w-[48px] hover:w-[50px] cursor-pointer"
+          />
         </div>
       </div>
     </header>
