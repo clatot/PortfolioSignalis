@@ -1,8 +1,4 @@
-import { useState } from "react";
-
 function Background() {
-  const [height, setHeight] = useState(-320);
-
   return (
     <div className="relative w-screen h-screen overflow-hidden pointer-events-none">
       {/* Top Black Bar */}

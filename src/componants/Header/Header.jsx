@@ -6,7 +6,7 @@ function Header() {
   }
 
   function handleClickCV() {
-    window.open("./CV_Raphael_Clatot.pdf", "_blank");
+    window.open("./CV.pdf", "_blank");
   }
 
   return (
